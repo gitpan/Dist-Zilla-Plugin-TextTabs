@@ -1,11 +1,10 @@
 package Dist::Zilla::Plugin::TextTabs;
 
 use Moose;
-use v5.10;
 use Text::Tabs qw( expand unexpand );
 
 # ABSTRACT: Expand or unexpand tabs in your dist
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 
 with 'Dist::Zilla::Role::FileMunger',
@@ -70,13 +69,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Dist::Zilla::Plugin::TextTabs - Expand or unexpand tabs in your dist
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

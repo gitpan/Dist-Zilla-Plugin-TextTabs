@@ -13,6 +13,8 @@ corpus/DZT3/Makefile.PL
 corpus/DZT3/lib/DZT3.pm
 dist.ini
 lib/Dist/Zilla/Plugin/TextTabs.pm
+t/00_diag.t
+t/00_diag.txt
 t/expand.t
 t/installer.t
 t/tabstop.t
@@ -29,3 +31,4 @@ xt/release/pod_spelling_common.t
 xt/release/pod_spelling_system.t
 xt/release/release.yml
 xt/release/strict.t
+xt/release/version.t
